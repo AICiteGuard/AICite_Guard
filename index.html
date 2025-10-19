@@ -1,25 +1,241 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AI & Cite Guard - Advanced Protection Solutions</title>
-    <meta name="description" content="Download AI Guard and Cite Guard - Professional protection solutions for AI content and academic citations. Enterprise-grade security for digital work." />
-    <meta name="author" content="AI & Cite Guard" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI & Cite Guard</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f5f7fa;
+      color: #333;
+      text-align: center;
+    }
 
-    <meta property="og:title" content="AI & Cite Guard - Advanced Protection Solutions" />
-    <meta property="og:description" content="Download AI Guard and Cite Guard - Professional protection solutions for AI content and academic citations." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    header {
+      padding: 60px 20px;
+    }
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-    <script type="module" crossorigin src="/assets/index-DAcV68Yx.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-octMeldX.css">
-  </head>
+    header h1 {
+      font-size: 2.5rem;
+      color: #6a5af9;
+      margin-bottom: 15px;
+    }
 
-  <body>
-    <div id="root"></div>
-  </body>
+    header p {
+      color: #555;
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 0 auto 30px;
+    }
+
+    .badges {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      background: #fff;
+      border-radius: 25px;
+      padding: 10px 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 500;
+    }
+
+    .section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      background: #fff;
+      margin: 40px auto;
+      max-width: 1100px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      padding: 40px;
+      text-align: left;
+    }
+
+    .section > div {
+      flex: 1 1 55%;
+      min-width: 300px;
+    }
+
+    .section img {
+      flex: 1 1 35%;
+      max-width: 350px;
+      border-radius: 12px;
+      margin: 0 auto;
+      display: block;
+    }
+
+    .section h2 {
+      color: #4a45e2;
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+
+    .section ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .section ul li {
+      margin: 8px 0;
+      color: #555;
+    }
+
+    .download-btn, .contact-btn {
+      display: inline-block;
+      background: #6a5af9;
+      color: #fff;
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 20px;
+      font-weight: 600;
+      transition: 0.3s;
+      border: none;
+    }
+
+    .download-btn:hover, .contact-btn:hover {
+      background: #5848d8;
+    }
+
+    .team {
+      background: #fff;
+      margin: 60px auto;
+      max-width: 1000px;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    .team h2 {
+      color: #333;
+      font-size: 2rem;
+      margin-bottom: 40px;
+    }
+
+    .team-members {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .member {
+      background: #f9f9ff;
+      border-radius: 12px;
+      padding: 20px;
+      width: 280px;
+      text-align: left;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .member h3 {
+      color: #000;
+      margin-bottom: 8px;
+    }
+
+    .member h4 {
+      color: #6a5af9;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #f5f7fa;
+      padding: 30px;
+      color: #555;
+      font-size: 0.95rem;
+    }
+
+    footer h3 {
+      color: #6a5af9;
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AI & Cite Guard</h1>
+    <p>Advanced protection solutions for your digital and academic work. Download our powerful guard applications and secure your content today.</p>
+    <div class="badges">
+      <div class="badge"><i class="fa-solid fa-shield-halved"></i> Enterprise-Grade Security</div>
+      <div class="badge"><i class="fa-solid fa-bolt"></i> Lightning Fast</div>
+      <div class="badge"><i class="fa-solid fa-bullseye"></i> Easy to Use</div>
+    </div>
+    <br/>
+    <a class="contact-btn" href="mailto:aiciteguardteam@gmail.com" aria-label="Send an email to AI & Cite Guard Team">Contact Us</a>
+  </header>
+
+  <section class="section">
+    <div>
+      <h2>Cite Guard</h2>
+      <p>File Content Viewer helps you quickly extract, view, and lightly edit text from PDF and Word (.docx) files. It also includes a citation checker and the built-in Cite Guard Assistant to help format and validate your references.</p>
+      <ul>
+        <li>Quick text extraction from PDF and Word (.docx) files</li>
+        <li>View and lightly edit document content</li>
+        <li>Built-in citation checker for accuracy</li>
+        <li>Cite Guard Assistant for formatting references</li>
+        <li>Validate citations across multiple formats</li>
+      </ul>
+      <a href="#" class="download-btn">Download for Windows</a>
+    </div>
+    <img src="/mnt/data/97d3062d-c6cb-4198-89f6-18f54bca42aa.png" alt="Cite Guard" />
+  </section>
+
+  <section class="section">
+    <div>
+      <h2>AI Guard</h2>
+      <p>This application allows you to open and view .docx files, edit content within a text field, convert text to images, and save text as a .docx file. Output from the app makes it difficult for AI to answer questions from the app output, making it ideal for institutions to set questions for students.</p>
+      <ul>
+        <li>Open and view .docx files</li>
+        <li>Edit the content within a text field</li>
+        <li>Convert text to images</li>
+        <li>Save text as a .docx file</li>
+        <li>Simple and intuitive interface</li>
+        <li>Ideal for institutions to set questions for students</li>
+      </ul>
+      <a href="#" class="download-btn">Download for Windows</a>
+    </div>
+    <img src="/mnt/data/97d3062d-c6cb-4198-89f6-18f54bca42aa.png" alt="AI Guard" />
+  </section>
+
+  <section class="team">
+    <h2>Our Team</h2>
+    <div class="team-members">
+      <div class="member">
+        <h3>James Duru</h3>
+        <h4>Tax & Research Analyst</h4>
+        <p>Seasoned professional specializing in individual and business tax computation, with broader expertise in tax strategy and scholarly research.</p>
+      </div>
+      <div class="member">
+        <h3>Sunday Damilare Ogunleye</h3>
+        <h4>MSc Management and Data Analytics</h4>
+        <p>A Senior Financial Analyst with Indiana University Foundation.</p>
+      </div>
+      <div class="member">
+        <h3>Moses Adebayo</h3>
+        <h4>Software Developer</h4>
+        <p>Experienced developer specializing in secure software and web applications.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <h3>AI & Cite Guard</h3>
+    <p>Professional protection solutions for the modern digital world</p>
+    <p>© 2025 AI & Cite Guard. All rights reserved.</p>
+  </footer>
+</body>
 </html>
