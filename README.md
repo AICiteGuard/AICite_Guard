@@ -24,41 +24,6 @@ A comprehensive desktop application built with Electron that helps users check c
 - Node.js (version 14 or higher)
 - npm (comes with Node.js)
 
-### Setup
-1. Clone or download the project
-2. Navigate to the project directory
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-### Running the Application
-```bash
-npm start
-```
-
-## Building and Distribution
-
-### Windows Installer
-```bash
-npm run dist
-```
-This creates a Windows NSIS installer in the `dist` folder.
-
-### macOS Installer
-```bash
-npm run build:mac
-```
-**Note**: macOS builds require:
-- macOS system for building
-- Xcode Command Line Tools: `xcode-select --install`
-- For distribution: Apple Developer account for code signing and notarization
-
-### Linux AppImage
-```bash
-npm run build:linux
-```
-
 ## Usage Guide
 
 ### Basic Workflow
@@ -183,11 +148,6 @@ The application includes security measures:
 - Use IPC for communication between processes
 - Maintain clean separation between UI and business logic
 
-## Team
-
-- **Alice Johnson** - Lead Developer
-- **Brian Lee** - UI/UX Designer  
-- **Carlos Martinez** - AI Integration Specialist
 
 ## License
 
@@ -198,5 +158,6 @@ This project is proprietary software. All rights reserved.
 For technical support or feature requests, please contact the development team.
 
 ---
+
 
 *Cite Guard - Your comprehensive citation checking and academic writing assistant.*
